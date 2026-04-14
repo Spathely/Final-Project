@@ -25,26 +25,7 @@ namespace Slay_Your_Vegetables
             AttackPower = 5;
 
         }
-        public int DealDamage(Tomato tomato, Knife knife)
-        {
-            if (knife.IsKnife)
-            {
-                tomato.CurrentHP -= knife.AttackPower;
-                System.Console.WriteLine("-" + knife.AttackPower);
-                if (tomato.CurrentHP <= 0)
-                {
-                    tomato.CurrentHP=0;
-                    //dead animation
-                }
-                return tomato.CurrentHP;
-            }
-            else
-            {
-                System.Console.WriteLine("0");
-                return tomato.CurrentHP;
-            }
-
-        }
+        
     }
   
 

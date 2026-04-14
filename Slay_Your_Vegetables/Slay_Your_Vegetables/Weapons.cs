@@ -11,7 +11,9 @@ namespace Slay_Your_Vegetables
         public int AttackPower;
         public Texture2D texture;
         public Vector2 position;
-        public bool IsKnife;
+        public void Attack(){}
+        public void Ulti(){}
+        
         
 
     }
@@ -21,8 +23,23 @@ namespace Slay_Your_Vegetables
         {
             Name= "Knife";
             AttackPower= 25;
-            IsKnife= true;
+            
         }
         
+        public int Attack(Knife knife,Enemy enemy)
+        {
+            enemy.CurrentHP-=knife.AttackPower;
+            return enemy.CurrentHP;
+
+        }
     }
+    internal class Torch: Weapons
+    {
+        
+    }
+    internal class Blender:Weapons
+    {
+        
+    }
+
 }
