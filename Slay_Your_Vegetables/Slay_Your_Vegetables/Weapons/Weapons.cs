@@ -2,9 +2,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 
-namespace Slay_Your_Vegetables
 
-{
     internal class Weapons
     {
         public string Name;
@@ -42,4 +40,3 @@ namespace Slay_Your_Vegetables
         
     }
 
-}

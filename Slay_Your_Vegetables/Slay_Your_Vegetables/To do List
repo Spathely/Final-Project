@@ -1,0 +1,32 @@
+Foods
+- Salad= Tomato(K), Lettuce(K), Lemon(K), Tuna(T)
+- Hamburger= Ground beef(T), Bread(K), Lettuce(K), Tomato(K)
+- Ali Nazik= Eggplant(T), Yogurt(B), Ground beef(T), Tomato(K)
+- Soup= Cream(B), Butter(T), Chicken(T), Mushroom(K)
+- Dessert= Cream(B), Chocolate(T), Banana(K), Biscuit(K)
+
+
+
+
+
+
+
+Enemies
+
+(Knife)
+Tomato, Lettuce, Lemon, Bread, Mushroom, Banana, Biscuit
+
+N.A: Bıçak sıradaki ilk düşmana saldırır
+Ult: Bıçak tüm sıranın sonuna kadar ilerleyerek isabet eden tüm düşmanlara saldırır
+
+(Torch)
+Tuna, Ground beef, Eggplant, Butter, Chicken, Chocolate
+
+N.A:Sıranın yarısına kadar bir hasar verir
+Ult: Ortada bir alev oluşur ve ekrandaki tüm düşmanlara hasar verir
+
+(Blender)
+Yogurt, Cream
+
+N.A:Sırada ilerleyip geri dönecek
+Ult: tüm sıradaki düşmanlara hasar verip geriye gitmelerini sağlayacak
