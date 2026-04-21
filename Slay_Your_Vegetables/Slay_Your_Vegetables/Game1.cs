@@ -9,6 +9,9 @@ public class Game1 : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
+    Sprite sprite;
+    
+
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
@@ -28,6 +31,8 @@ public class Game1 : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
         // TODO: use this.Content to load your game content here
+        
+
     }
 
     protected override void Update(GameTime gameTime)
@@ -45,6 +50,12 @@ public class Game1 : Game
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
         // TODO: Add your drawing code here
+
+        _spriteBatch.Begin();
+
+       //ADD SPRITES 
+        
+        _spriteBatch.End();    
 
         base.Draw(gameTime);
     }

@@ -7,8 +7,6 @@ using Microsoft.Xna.Framework.Graphics;
         public string Name;
         public int MaxHP;
         public int CurrentHP;
-        public Texture2D texture;
-        public Vector2 position;
         public void Attack(Enemy enemy){}
         public void DealDamage(Enemy enemy){}
         public void UseUlt(Weapons weapons){}
