@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 class Sprite
 {
+    
     public Texture2D texture;
     public Vector2 position;
 

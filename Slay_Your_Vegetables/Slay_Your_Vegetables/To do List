@@ -30,3 +30,18 @@ Yogurt, Cream
 
 N.A:Sırada ilerleyip geri dönecek
 Ult: tüm sıradaki düşmanlara hasar verip geriye gitmelerini sağlayacak
+
+UI           |
+silah        |
+silah anim   |-> Esra
+giriş bg     |
+weapons class|
+player class |
+
+oyun içi bg  |
+düşman       |
+düşman anim  |-> Sude
+enemies class|
+how to play  |
+
+can/stamina(spamlamamak için)/mana(ulti için)
