@@ -8,7 +8,7 @@ public interface IEnemy
     int MaxHP { get; set; }
     int CurrentHP { get; set; }
     int AttackPower { get; set; }
-    int Speed { get; set; }
+    float Speed { get; set; }
     void Attack();
     void DealDamage();
 }
@@ -18,11 +18,17 @@ internal class Enemy : Sprite, IEnemy
     public int MaxHP { get; set; }
     public int CurrentHP { get; set; }
     public int AttackPower { get; set; }
-    public int Speed { get; set; }
+    public float Speed { get; set; }
 
     public Enemy(Texture2D texture, Vector2 position) : base(texture, position)
     {
+<<<<<<< Updated upstream
         //write that this.name
+=======
+      this.Texture=texture;
+      this.Position=position;
+
+>>>>>>> Stashed changes
     }
     public void Attack() { }
     public void DealDamage() { }
