@@ -1,9 +1,8 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-class Sprite
+public class Sprite
 {
-    
     public Texture2D texture;
     public Vector2 position;
 
@@ -11,5 +10,9 @@ class Sprite
     {
         this.texture = texture;
         this.position = position;
+    }
+    public virtual void Draw(SpriteBatch spriteBatch)
+    {
+        spriteBatch.Draw(texture,position,Color.White);
     }
 }
